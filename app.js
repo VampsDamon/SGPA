@@ -69,7 +69,7 @@ deca.onchange=function(){
 
 form.onsubmit=function(e){
     e.preventDefault(); 
-    SGPA =( (TC*2) + (Math*3) + (SE*3) +(DSA*3) + (OOPS*3) + (DE*3) + (IT*1) + (DECA*.5) + (SEL*1.5) + (DEL*1.5) + (OOPSL * 1.5) + (SEL *1.5) ) /24.5;
+    SGPA =( (TC*2) + (Math*3) + (SE*3) +(DSA*3) + (OOPS*3) + (DE*3) + (IT*1) + (DECA*.5) + (SEL*1.5) + (DEL*1.5) + (OOPSL * 1.5) + (DSAL *1.5) ) /24.5;
 
     SGPA.toFixed(2);
     sg.textContent=`Your SGPA ${ SGPA.toFixed(2)}`;
